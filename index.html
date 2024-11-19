@@ -46,6 +46,17 @@
 
       gtag("config", "UA-122228201-4")
     </script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+      emailjs.init({
+        publicKey: c7zSUxq07N0ULLbcF,
+      });
+    })();
+    </script>
+    <script src="script.js"></script>
     <!-- End of Google Analytics -->
   </head>
   <body>
@@ -120,6 +131,40 @@
                 <div class="thumbnail rounded">
                   <img
                     src="./assets/Gestion de cellule image.jpg"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Un génerateur de QR code</h3>
+              <p class="project-wrapper__text-info">
+                Une application de bureau permet de générer des QR codes a partir des liens fournis par l'utilisateur. Elle est développée en utilisant Python et la bibliothèque customtkinter pour une interface utilisateur moderne et personnalisable. Le projet combine également les bibliothèques qrcode, tkinter et PIL (Pillow) pour la création et l'affichage des images de QR codes.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Voir Live</a
+                >
+                <a href="https://github.com/badouxhm/qrcode-p" target="_blank" class="cta-btn text-color-main"
+                  >Code Source</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/image.jpg"
                     class="img-fluid"
                     alt="Project Image"
                     width="1366"
